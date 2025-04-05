@@ -2,10 +2,12 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
-    <header>
+    <header className="w-full h-full bg-amber-400">
       <nav>
-        <div className=""></div>
-        <ul>
+        <div className="">
+          <h1 className="font-bold">Watch</h1>
+        </div>
+        <ul className=" bg-amber-950">
           <li>
             <NavLink to={"/"}>Home</NavLink>
           </li>
