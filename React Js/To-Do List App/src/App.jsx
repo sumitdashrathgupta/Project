@@ -5,7 +5,6 @@ import Data from "./Data";
 function App() {
   let [data, setData] = useState("");
 
-
   const submitEvent = (e) => {
     e.preventDefault();
     console.log(data);
